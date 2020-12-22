@@ -1,0 +1,125 @@
+.img {
+    width: 100vw;
+    padding: 70px;
+    top: 50%;
+    right: 50%;
+}
+
+header h1{
+    display: inline block;
+    width: 1000px;
+    height: 100px;
+    background-color: pink;
+}
+section{
+    text-align: center;
+    display: flex;
+    flex: 100px;
+    width: 200px;
+
+}
+body{
+    width: 200px ;
+    bottom: 30%;
+    top: 30px ;
+    left: 400%;
+}
+
+.item{
+    display: block;
+    width: 200px;
+    padding: 100px;
+}
+.subtitle{
+      font-size: 2.2rem;
+      margin: 5px 0;
+
+}
+
+.title{
+    font-size: 2.2rem ;
+    margin: 5px 0;
+    animation-duration: 1.5s;
+    animation: none 4px; ;
+}
+.avatar {
+    width: 100px ;
+    border-radius:100vw ;
+}
+/* Estelização do contato ul - li */
+.contato{
+    padding: 0%;
+    
+
+}
+.contato i{
+       color: var(--collor1);
+       font-size: 1.6rem;
+}
+.contato i:hover{
+    color: var(--collor2);
+}
+#sobre{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    border: 1px;
+}
+#sobre p{
+    width: 80vw ;
+    margin-left: 50px 0;
+}
+#lista{
+    width: 40vw;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#lista li{
+     font-weight: 400;
+     padding: 20px 0;
+     list-style: none ;
+     cursor: default;
+
+}
+#atividades{
+    height: 5ovw;
+    text-align: center;
+    border-top: 1px solid var(--collor1);
+}
+#atividades li{
+    list-style: none;
+    padding: 5px;
+}
+#atividades a{
+    text-decoration: none;
+    color: var(--collor1);
+    font-size: 1.2rem;
+}
+#atividades a:hover{
+
+}
+/* Estilização footer*/
+footer{
+    background-color:black;
+    color: #fff;
+    height: 10vh ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: -8px;
+}
+footer a{
+    color: var(--collor1);
+}
+/*animação */
+@keyframes slidein{
+    from{
+        margin-top: 50vh;
+        margin-left: 0 ;
+    }
+}
+#bnt {
+    position: fixed;
+    right: 1vw;
+    top: 1vw;
+}
