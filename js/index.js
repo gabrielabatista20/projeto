@@ -11,4 +11,4 @@ btn.addEventListener("click",function(){
         body.style.color ="#333";
     }
 
-}
+})
